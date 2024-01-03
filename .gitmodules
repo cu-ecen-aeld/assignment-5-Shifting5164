@@ -4,6 +4,3 @@
 [submodule "buildroot"]
 	path = buildroot
 	url = https://git.busybox.net/buildroot/
-[submodule "assignments-3-and-later-Shifting5164"]
-	path = assignments-3-and-later-Shifting5164
-	url = git@github.com:cu-ecen-aeld/assignments-3-and-later-Shifting5164.git
