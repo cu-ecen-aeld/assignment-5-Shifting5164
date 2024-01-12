@@ -1,5 +1,5 @@
 
-config LDD
+config BR2_PACKAGE_LDD
 	bool "ldd"
 	help
 	  LDD example package
