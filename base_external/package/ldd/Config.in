@@ -1,0 +1,5 @@
+
+config LDD
+	bool "ldd"
+	help
+	  LDD example package
