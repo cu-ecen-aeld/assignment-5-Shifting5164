@@ -4,10 +4,14 @@ case "$1" in
     start)
         echo "Starting"
         scull_load
+	module_load faulty
+	modprobe hello
         ;;
     stop)
         echo "Stopping"
         scull_unload
+	module_unload faulty
+	rmmod hello
         ;;
     *)
         echo "Usage: $0 {start|stop}"
